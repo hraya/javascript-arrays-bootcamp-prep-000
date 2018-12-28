@@ -11,7 +11,8 @@ array.unshift(element)
 }
 
 function addElementToEndOfArray(array, element){
-  const diffArr = [...array, element]
+  array.push(element)
+  return array
 }
 
 function destructivelyAddElementToEndOfArray(array, element){
